@@ -68,8 +68,8 @@ def generate_key_from_password(password, salt):
 ### Installation
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/fileshield.git
-cd fileshield
+git clone https://github.com/Kamran4074/FileShield.git
+cd FileShield
 
 # Install dependencies
 pip install -r requirements.txt
