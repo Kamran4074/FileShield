@@ -176,3 +176,6 @@ I'm passionate about cybersecurity and software development. Let's discuss:
 ---
 
 **💡 This project demonstrates practical application of computer science concepts in real-world cybersecurity scenarios, showcasing both technical expertise and professional software development practices.**
+
+---
+*Last updated: January 2026*
