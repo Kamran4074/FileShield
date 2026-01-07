@@ -17,6 +17,63 @@ FileShield is a comprehensive file encryption system built to showcase **real-wo
 - **Security-first architecture**: Proper salt handling, secure key generation, memory management
 - **Production-ready code**: Comprehensive error handling, input validation, modular design
 
+## 🔄 Encryption & Decryption Flow
+
+### 🔒 Encryption Process
+```
+1. User Input
+   ├── Select file (test_files/secret.txt)
+   └── Enter password ("mypassword123")
+
+2. Security Layer
+   ├── Generate random 16-byte salt
+   ├── Apply PBKDF2 (100,000 iterations)
+   └── Create AES-256 key from password + salt
+
+3. File Processing
+   ├── Read original file content
+   ├── Encrypt content using Fernet (AES-256)
+   └── Combine: [SALT][ENCRYPTED_DATA]
+
+4. Output
+   └── Save as filename.encrypted
+```
+
+### 🔓 Decryption Process
+```
+1. User Input
+   ├── Select encrypted file (filename.encrypted)
+   └── Enter same password ("mypassword123")
+
+2. File Analysis
+   ├── Read first 16 bytes (extract salt)
+   └── Read remaining bytes (encrypted data)
+
+3. Key Recreation
+   ├── Use same password + extracted salt
+   ├── Apply PBKDF2 (same 100,000 iterations)
+   └── Recreate identical AES-256 key
+
+4. Decryption & Output
+   ├── Decrypt data using recreated key
+   └── Save as filename_decrypted.txt
+```
+
+### 🔐 Security Chain Visualization
+```
+Password: "mypassword123"
+    ↓
+Salt: b'\x8f\x2a\x1b\x9c...' (16 random bytes)
+    ↓
+PBKDF2: 100,000 × SHA-256(password + salt)
+    ↓
+Key: b'\xa1\xb2\xc3\xd4...' (32-byte AES key)
+    ↓
+AES-256: Fernet encryption algorithm
+    ↓
+Output: [SALT + ENCRYPTED_DATA] → file.encrypted
+```
+
 ## 🛡️ Technical Implementation
 
 ### Core Security Features
