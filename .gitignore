@@ -19,7 +19,6 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
 
 # Virtual Environment
 .venv/
@@ -32,25 +31,17 @@ env/
 .idea/
 *.swp
 *.swo
-*~
 
 # OS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 
-# Project specific
+# FileShield specific - ignore encrypted/decrypted files
 *.encrypted
 *_decrypted.txt
 .fileshield_recent
 
-# Logs
+# Logs and temporary files
 *.log
-
-# Temporary files
 *.tmp
 *.temp
