@@ -1,0 +1,24 @@
+CONFIDENTIAL MEDICAL RECORDS
+
+Patient: Michael Davis
+DOB: 03/15/1990
+Patient ID: MED-789456
+Insurance: BlueCross Policy #XYZ789
+
+Medical History:
+- Allergies: Penicillin, Shellfish
+- Blood Type: O+
+- Current Medications: Lisinopril 10mg daily
+- Last Visit: December 15, 2025
+
+Recent Test Results:
+- Blood Pressure: 120/80 (Normal)
+- Cholesterol: 185 mg/dL (Good)
+- Blood Sugar: 95 mg/dL (Normal)
+
+Diagnosis: Annual Physical - Excellent Health
+
+HIPAA PROTECTED INFORMATION
+Unauthorized disclosure is strictly prohibited by federal law.
+
+This sensitive medical data requires encryption for secure storage and transmission.

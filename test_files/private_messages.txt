@@ -1,0 +1,29 @@
+PRIVATE MESSAGE ARCHIVE
+
+From: alex.smith@company.com
+To: sarah.jones@company.com
+Subject: Confidential Project Discussion
+
+Hi Sarah,
+
+I wanted to discuss the upcoming merger details privately:
+
+Key Information:
+- Target Company: TechCorp Industries
+- Deal Value: $50 million
+- Expected Completion: March 2026
+- Confidentiality Level: TOP SECRET
+
+Meeting Details:
+- Date: January 10, 2026
+- Time: 2:00 PM EST
+- Location: Conference Room A
+- Attendees: C-Level executives only
+
+Please keep this information strictly confidential until the official announcement.
+
+Best regards,
+Alex
+
+CONFIDENTIAL BUSINESS COMMUNICATION
+This message contains sensitive corporate information.

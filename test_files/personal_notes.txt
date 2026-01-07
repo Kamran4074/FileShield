@@ -1,0 +1,14 @@
+Personal Notes - Private Information
+
+Meeting Notes:
+- Project deadline: January 15th
+- Team members: Alice, Bob, Charlie
+- Budget: $50,000
+
+Ideas for the project:
+1. Implement user authentication
+2. Add data encryption
+3. Create backup system
+4. Design user interface
+
+Remember to encrypt this file before sharing!

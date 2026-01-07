@@ -1,0 +1,28 @@
+CONFIDENTIAL EMPLOYEE RECORDS
+
+Employee ID: EMP-2026-001
+Name: Kamran (Developer)
+Department: IT Security & Software Development
+Position: Cybersecurity Programmer
+Salary: $75,000/year
+Employee Type: Software Developer
+
+Project Assignments:
+- File Encryption System: Lead Developer
+- Cybersecurity Tools: Primary Programmer
+- Python Applications: Senior Developer
+
+Skills & Expertise:
+- Programming Languages: Python, Java
+- Cybersecurity: Encryption, File Security
+- GUI Development: Tkinter, User Interface Design
+- Technical Skills: Excellent (5/5)
+
+Current Project:
+"Advanced File Encryption System with GUI Interface"
+Status: Successfully Completed
+Recognition: Outstanding Programming Achievement
+
+HR CONFIDENTIAL - UNAUTHORIZED ACCESS PROHIBITED 
+
+This file contains sensitive employee data created by Kamran for demonstration purposes.
